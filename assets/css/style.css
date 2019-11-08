@@ -1,0 +1,15 @@
+#img{ /*concerne les grands écrans*/
+  width: 50%
+}
+/*concerne les écrans moyens*/
+@media screen and (max-width: 1024px) {
+  #img{
+    width: 75%
+  }
+}
+/*concerne les petits écrans*/
+@media screen and (max-width: 375px){
+  #img{
+    width: 100%
+  }
+}
