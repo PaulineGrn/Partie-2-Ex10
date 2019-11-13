@@ -1,15 +1,15 @@
-#img{ /*concerne les grands écrans*/
-  width: 50%
+img{ /*concerne les grands écrans, les ordis*/
+  width: 50%;
 }
-/*concerne les écrans moyens*/
-@media screen and (max-width: 1024px) {
-  #img{
-    width: 75%
+/*concerne les écrans moyens, 992 max pour les tablettes*/
+@media screen and (max-width: 992px) {
+  img{
+    width: 75%;
   }
 }
-/*concerne les petits écrans*/
-@media screen and (max-width: 375px){
-  #img{
+/*concerne les petits écrans, pour les portables*/
+@media screen and (max-width: 576px){
+  img{
     width: 100%
   }
 }
